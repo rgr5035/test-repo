@@ -3,54 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      body {
-        background-color: aquamarine;
-      }
-
-      p {
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      }
-    </style>
+    <title>Hello!</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/0.jpg" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
-  <header>This is a test!</header>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur
-      atque dolore magni impedit excepturi, ex repudiandae eaque, iure sint
-      repellendus. Error magni, modi laboriosam qui ullam ipsa accusamus
-      deleniti soluta distinctio rerum dolor commodi dolore voluptates
-      aspernatur quos libero obcaecati a veniam expedita? Perspiciatis maxime,
-      blanditiis velit aliquid consectetur ut praesentium, fugiat deleniti saepe
-      esse ducimus necessitatibus laborum dolor alias cum! Ad perspiciatis quis
-      sequi animi sint recusandae reprehenderit non amet, deserunt ducimus
-      eveniet a nesciunt, harum quaerat neque nobis magnam modi magni maxime,
-      doloremque aut. Tenetur accusantium dicta laboriosam. Adipisci,
-      temporibus, tempora aperiam consequatur velit qui, corrupti accusantium ea
-      libero modi voluptates hic quae cupiditate consectetur ut sunt soluta?
-      Enim impedit nemo voluptatum, numquam odio eligendi delectus, officia,
-      voluptatibus possimus nulla illum? Qui inventore beatae, facilis quis, sit
-      dolores accusamus tempore laudantium iusto officia eum, accusantium harum
-      repellendus veniam doloribus debitis fugiat quibusdam excepturi totam ab
-      magnam. Ea, fuga perspiciatis quasi voluptatibus, facilis veritatis magnam
-      quae iure quidem, voluptas labore libero totam sed repellat esse a
-      consectetur sequi. Molestiae a aliquam minima earum, sunt aspernatur
-      labore, aut quam nostrum suscipit cupiditate vero nihil. Illo sunt vel sit
-      nobis amet vero dolores voluptatum aut fugiat maiores pariatur corrupti
-      expedita nostrum ab, quos, consequuntur in! Voluptate quas explicabo,
-      culpa dicta porro ea? Nesciunt quam autem facere omnis culpa quibusdam? Et
-      dolore eius sunt tempora exercitationem, laboriosam autem officiis
-      reiciendis animi quod veritatis cum eligendi nisi facere? Necessitatibus
-      soluta explicabo fuga, voluptatibus tempore unde dicta numquam laudantium,
-      distinctio architecto possimus. Asperiores exercitationem, mollitia at
-      error ad atque culpa assumenda animi distinctio quae explicabo autem sed.
-      Architecto quas, consequatur iste quaerat doloribus nulla fugit beatae
-      optio sint? Doloremque, adipisci ea, molestias in excepturi nobis
-      accusantium odit quaerat officia quia est quod quis itaque doloribus quas
-      dicta. Aspernatur explicabo necessitatibus magnam repudiandae sit?
-    </p>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Robby Ray</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a
+            class="nav-link"
+            href="https://www.linkedin.com/in/robertgordonray/"
+            target="_blank"
+            >Social Media</a
+          >
+          <a class="nav-link" href="https://github.com/rgr5035" target="_blank"
+            >Portfolio</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">About Me</div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="assets/0.jpg" alt="..." class="img-thumbnail" />
+          </div>
+          <div class="col-sm-4">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
+              neque in assumenda tenetur praesentium consequuntur molestias
+              cupiditate accusamus. Velit in aut ipsa repellat animi unde
+              placeat voluptas, quo dolorum, molestiae obcaecati exercitationem
+              debitis, aliquid perferendis sapiente rem iste itaque expedita vel
+              iure quam maxime? Perspiciatis veritatis illo cumque quisquam
+              obcaecati?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1601249573543-6c898b4ea9d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            class="active"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1601277237358-93d22efff93f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1594825350775-c6dec9d70934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
